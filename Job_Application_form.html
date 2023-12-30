@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application (web)</title>
+    <link rel="stylesheet" href="style7.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+    <div class="content">
+       <div><h1>Job Application <span class="heading">(web)</span></h1></div>
+    <form>
+     <div class="form_container">
+
+       <div class="form_control">
+        <label for="First_Name">First Name</label>
+        <input type="text" id="First_Name" required placeholder="Enter your First_Name">
+       </div>
+
+        <div class="form_control">                
+        <label for="Last_Name">Last Name</label>
+        <input type="text" id="Last_Name" required placeholder="Enter your Last_Name">
+        </div> 
+
+        <div class="form_control">       
+        <label for="Email">Email</label>
+        <input type="email" id="email" required placeholder="Enter your Email">
+        </div> 
+
+        <div class="form_control">
+        <label for="job" placeholder="select the Job Role">Job Role</label>
+        <select name="job" id="job">
+            <option value="Web Developer">Web developer</option>
+            <option value="Computer engineer">Computer engineer</option>
+            <option value="Doctor">Doctor</option>
+            <option value="CA">CA</option>
+            <option value="Manager">Manager</option>
+        </select>
+        </div>
+
+        <div class="text_control">       
+            <label for="Address">Enter your Address</label>
+            <textarea name="address" id="address" cols="50" rows="4" placeholder="Enter your Address"></textarea>
+        </div>
+
+        <div class="form_control">       
+            <label for="City">City</label>
+            <input type="text" id="City" required placeholder="Enter your City">
+        </div>
+
+        <div class="form_control">       
+            <label for="Pincode">Pincode</label>
+            <input type="password" id="Pincode" required placeholder="Enter your Pincode">
+        </div>
+
+        <div class="form_control">       
+            <label for="Date">Start date</label>
+            <input type="Date" id="Date" required placeholder="Enter your">
+        </div>
+        <div class="form_control">       
+            <label for="upload">Upload your CV</label>
+            <input type="file" id="upload" required placeholder="choose file">
+        </div>
+       </div>
+       <div class="button_container">
+        <button type="submit">Apply Now</button>
+       </div>
+     </form>
+    </div>
+    </div>
+</body>
+</html>
